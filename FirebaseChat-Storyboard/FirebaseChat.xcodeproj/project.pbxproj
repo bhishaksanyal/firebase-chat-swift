@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DB70FEAB2913D9C60077CD88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70FEAA2913D9C60077CD88 /* AppDelegate.swift */; };
 		DB70FEAD2913D9C60077CD88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70FEAC2913D9C60077CD88 /* SceneDelegate.swift */; };
-		DB70FEAF2913D9C60077CD88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70FEAE2913D9C60077CD88 /* ViewController.swift */; };
+		DB70FEAF2913D9C60077CD88 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70FEAE2913D9C60077CD88 /* WelcomeViewController.swift */; };
 		DB70FEB22913D9C60077CD88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB70FEB02913D9C60077CD88 /* Main.storyboard */; };
 		DB70FEB42913D9C70077CD88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB70FEB32913D9C70077CD88 /* Assets.xcassets */; };
 		DB70FEB72913D9C70077CD88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB70FEB52913D9C70077CD88 /* LaunchScreen.storyboard */; };
@@ -39,7 +39,7 @@
 		DB70FEA72913D9C60077CD88 /* FirebaseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB70FEAA2913D9C60077CD88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB70FEAC2913D9C60077CD88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB70FEAE2913D9C60077CD88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB70FEAE2913D9C60077CD88 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		DB70FEB12913D9C60077CD88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB70FEB32913D9C70077CD88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB70FEB62913D9C70077CD88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,9 +99,11 @@
 		DB70FEA92913D9C60077CD88 /* FirebaseChat */ = {
 			isa = PBXGroup;
 			children = (
+				DB70FEDC2913DC7B0077CD88 /* Controllers */,
+				DB70FEDB2913DC740077CD88 /* Views */,
+				DB70FEDA2913DC670077CD88 /* Models */,
 				DB70FEAA2913D9C60077CD88 /* AppDelegate.swift */,
 				DB70FEAC2913D9C60077CD88 /* SceneDelegate.swift */,
-				DB70FEAE2913D9C60077CD88 /* ViewController.swift */,
 				DB70FEB02913D9C60077CD88 /* Main.storyboard */,
 				DB70FEB32913D9C70077CD88 /* Assets.xcassets */,
 				DB70FEB52913D9C70077CD88 /* LaunchScreen.storyboard */,
@@ -125,6 +127,28 @@
 				DB70FECD2913D9C70077CD88 /* FirebaseChatUITestsLaunchTests.swift */,
 			);
 			path = FirebaseChatUITests;
+			sourceTree = "<group>";
+		};
+		DB70FEDA2913DC670077CD88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DB70FEDB2913DC740077CD88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB70FEDC2913DC7B0077CD88 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB70FEAE2913D9C60077CD88 /* WelcomeViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB70FEAF2913D9C60077CD88 /* ViewController.swift in Sources */,
+				DB70FEAF2913D9C60077CD88 /* WelcomeViewController.swift in Sources */,
 				DB70FEAB2913D9C60077CD88 /* AppDelegate.swift in Sources */,
 				DB70FEAD2913D9C60077CD88 /* SceneDelegate.swift in Sources */,
 			);
