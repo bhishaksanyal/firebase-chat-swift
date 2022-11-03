@@ -16,6 +16,8 @@
 		DB70FEC22913D9C70077CD88 /* FirebaseChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70FEC12913D9C70077CD88 /* FirebaseChatTests.swift */; };
 		DB70FECC2913D9C70077CD88 /* FirebaseChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70FECB2913D9C70077CD88 /* FirebaseChatUITests.swift */; };
 		DB70FECE2913D9C70077CD88 /* FirebaseChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70FECD2913D9C70077CD88 /* FirebaseChatUITestsLaunchTests.swift */; };
+		DB70FEDE29140CA60077CD88 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70FEDD29140CA60077CD88 /* LoginViewController.swift */; };
+		DB70FEE0291416DA0077CD88 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70FEDF291416DA0077CD88 /* RegisterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DB70FEC72913D9C70077CD88 /* FirebaseChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB70FECB2913D9C70077CD88 /* FirebaseChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseChatUITests.swift; sourceTree = "<group>"; };
 		DB70FECD2913D9C70077CD88 /* FirebaseChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB70FEDD29140CA60077CD88 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DB70FEDF291416DA0077CD88 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				DB70FEAE2913D9C60077CD88 /* WelcomeViewController.swift */,
+				DB70FEDD29140CA60077CD88 /* LoginViewController.swift */,
+				DB70FEDF291416DA0077CD88 /* RegisterViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -282,6 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB70FEDE29140CA60077CD88 /* LoginViewController.swift in Sources */,
+				DB70FEE0291416DA0077CD88 /* RegisterViewController.swift in Sources */,
 				DB70FEAF2913D9C60077CD88 /* WelcomeViewController.swift in Sources */,
 				DB70FEAB2913D9C60077CD88 /* AppDelegate.swift in Sources */,
 				DB70FEAD2913D9C60077CD88 /* SceneDelegate.swift in Sources */,
