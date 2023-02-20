@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB19C30329A3B72200A70141 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB19C30229A3B72200A70141 /* ChatViewController.swift */; };
 		DB70FEAB2913D9C60077CD88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70FEAA2913D9C60077CD88 /* AppDelegate.swift */; };
 		DB70FEAD2913D9C60077CD88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70FEAC2913D9C60077CD88 /* SceneDelegate.swift */; };
 		DB70FEAF2913D9C60077CD88 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB70FEAE2913D9C60077CD88 /* WelcomeViewController.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB19C30229A3B72200A70141 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		DB70FEA72913D9C60077CD88 /* FirebaseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB70FEAA2913D9C60077CD88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB70FEAC2913D9C60077CD88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				DB70FEAE2913D9C60077CD88 /* WelcomeViewController.swift */,
 				DB70FEDD29140CA60077CD88 /* LoginViewController.swift */,
 				DB70FEDF291416DA0077CD88 /* RegisterViewController.swift */,
+				DB19C30229A3B72200A70141 /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				DB70FEE0291416DA0077CD88 /* RegisterViewController.swift in Sources */,
 				DB70FEAF2913D9C60077CD88 /* WelcomeViewController.swift in Sources */,
 				DB70FEAB2913D9C60077CD88 /* AppDelegate.swift in Sources */,
+				DB19C30329A3B72200A70141 /* ChatViewController.swift in Sources */,
 				DB70FEAD2913D9C60077CD88 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
